@@ -1,0 +1,117 @@
+<htmlbody {background: url("fon.jpg" ) ;
+ }
+main{
+      margin: 0 auto;
+     background-color: #DDA0DD;
+     width: 1200px;
+     height: 3200px;
+     margin: 0 auto;
+}
+nav { display:flex;
+    height: 120px;
+    background-color: #D8BFD8;
+    border-bottom-style:  solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.img_nav{
+	  height: 120px;
+	  width: 500px;
+	  float: left;
+    display: flex;
+	  justify-content: space-around;
+}
+.img_nav img{
+      height: 100px;
+}
+.nav_menu { background-color: #D8BFD8;
+    width: 1500px;
+    float: right; 
+    height: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_menu li{
+    font-family: Times New Ro...;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+li:hover {
+     background: #BC8F8F;
+     cursor: pointer;
+     color: #F5F5F5;
+  }
+
+ .misto {
+ background-color: grey;
+ }
+.foto_misto img{
+  width: 800px;
+}
+
+.misto{ background: url("misto.jpg");
+height: 700px;
+  width: 1000px;
+display: flex;
+  align-items: center;
+  display: block; 
+  margin: 0 auto;
+
+ }
+
+ .foto_misto { background: url("kiev.jpg");
+  height: 450px;
+  width: 500px;
+  background-color: pink;
+  float: left;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+
+
+ }
+
+
+
+ .text_misto{
+  height: 450px;
+  width: 500px;
+  background-color: white;
+  float: left;
+  margin: 10px;
+ }
+
+ .foto_misto{
+  height: 450px;
+  width: 500px;
+  background-color: pink;
+  float: right;
+  
+ }
+
+ .text_misto1{
+  height: 450px;
+  width: 500px;
+  background-color:pink;
+  float: right;
+
+ }
+ a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
